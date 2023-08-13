@@ -1,0 +1,67 @@
+.Weather {
+  background-color: slateblue;
+  border: 1px solid slategray;
+  padding: 30px;
+  margin: 60px auto;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.Weather h1 {
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: 400;
+  margin: 20px 0 10px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 18px;
+  font-weight: 100px;
+  line-height: 20px;
+}
+
+.Weather canvas {
+  margin-right: 8px;
+}
+
+.temperature {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.unit {
+  position: relative;
+  top: -28px;
+  font-size: 16px;
+  margin-left: -8px;
+}
+.unitLink {
+  text-decoration: none;
+  color: aquamarine;
+}
+.unitLink:hover {
+  color: coral;
+  cursor: pointer;
+}
+.btn {
+  background-color: aquamarine;
+  color: slategray;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+}
+
+.form-control {
+  border: none;
+  box-shadow: none;
+}
+
+.btn:hover {
+  background-color: coral;
+  color: #fff;
+}
