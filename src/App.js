@@ -11,7 +11,8 @@ export default function App() {
         <footer>
           This project was coded by Hanna Velychko and is{" "}
           <a
-            href="https://github.com/Anna-challenge/weather-react-app-new"
+            rel="no-referrer"
+            href="https://github.com/Anna-challenge/react-weather-week5"
             target="_blank"
           >
             opensourced on Github{" "}
