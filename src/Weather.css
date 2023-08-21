@@ -1,6 +1,6 @@
 .Weather {
-  background-color: slateblue;
-  border: 1px solid slategray;
+  background-color: #6a5acd;
+  border: 1px solid #708090;
   padding: 30px;
   margin: 60px auto;
   border-radius: 5px;
@@ -43,15 +43,15 @@
 }
 .unitLink {
   text-decoration: none;
-  color: aquamarine;
+  color: #7fffd4;
 }
 .unitLink:hover {
-  color: coral;
+  color: #f88379;
   cursor: pointer;
 }
 .btn {
-  background-color: aquamarine;
-  color: slategray;
+  background-color: #7fffd4;
+  color: #708090;
   text-transform: uppercase;
   border: 1px solid #fff;
 }
@@ -62,6 +62,6 @@
 }
 
 .btn:hover {
-  background-color: coral;
+  background-color: #f88379;
   color: #fff;
 }

@@ -7,11 +7,19 @@ export default function App() {
     <div className="App">
       <div className="container">
         {" "}
-        <Weather defaultCity="Kyiv" />
+        <Weather defaultCity="Mexico" />
         <footer>
-          This project was coded by Hanna Velychko and is{" "}
+          This project was coded by{" "}
           <a
-            rel="noreferrer"
+            rel="noreferrerb noopener"
+            href="https://www.linkedin.com/in/hanna-velychko-1b6655264/"
+            target="_blank"
+          >
+            Hanna Velychko
+          </a>{" "}
+          and is{" "}
+          <a
+            rel="noreferrer noopener"
             href="https://github.com/Anna-challenge/react-weather-week5"
             target="_blank"
           >

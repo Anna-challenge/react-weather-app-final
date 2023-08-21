@@ -22,6 +22,7 @@ export default function WeatherSearch(props) {
                 code={props.data.icon}
                 size={52}
                 alt={props.data.description}
+                
               />
             </div>
             <Temperature celsius={props.data.temperature} />{" "}
