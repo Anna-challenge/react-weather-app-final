@@ -11,7 +11,7 @@ export default function App() {
         <footer>
           This project was coded by{" "}
           <a
-            rel="noreferrerb noopener"
+            rel="noreferrer noopener"
             href="https://www.linkedin.com/in/hanna-velychko-1b6655264/"
             target="_blank"
           >
