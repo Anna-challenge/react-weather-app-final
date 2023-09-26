@@ -20,7 +20,7 @@ export default function App() {
           and is{" "}
           <a
             rel="noreferrer noopener"
-            href="https://github.com/Anna-challenge/react-weather-week5"
+            href="https://github.com/Anna-challenge/react-weather-app-final"
             target="_blank"
           >
             opensourced on Github{" "}

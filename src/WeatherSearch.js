@@ -22,7 +22,6 @@ export default function WeatherSearch(props) {
                 code={props.data.icon}
                 size={52}
                 alt={props.data.description}
-                
               />
             </div>
             <Temperature celsius={props.data.temperature} />{" "}
@@ -31,7 +30,7 @@ export default function WeatherSearch(props) {
         <div className="col-6">
           <ul>
             <li className="mb-2"> Humidity: {props.data.humidity} % </li>{" "}
-            <li> Wind: {props.data.wind} km / h </li>{" "}
+            <li> Wind: {Math.round(props.data.wind)} km / h </li>{" "}
           </ul>{" "}
         </div>{" "}
       </div>{" "}
