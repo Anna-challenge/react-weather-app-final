@@ -29,8 +29,8 @@ export default function WeatherSearch(props) {
         </div>{" "}
         <div className="col-6">
           <ul>
-            <li className="mb-2"> Humidity: {props.data.humidity} % </li>{" "}
-            <li> Wind: {Math.round(props.data.wind)} km / h </li>{" "}
+            <li className="humiduty mb-2"> Humidity: {props.data.humidity} % </li>{" "}
+            <li className="wind"> Wind: {Math.round(props.data.wind)} km / h </li>{" "}
           </ul>{" "}
         </div>{" "}
       </div>{" "}
